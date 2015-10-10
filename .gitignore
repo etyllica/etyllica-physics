@@ -1,0 +1,7 @@
+# Pre-Compiled Files #
+*.class
+/bin
+
+# Automatic Generated Files #
+*.applet
+*.attach
