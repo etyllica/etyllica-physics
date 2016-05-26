@@ -9,7 +9,7 @@ import org.dyn4j.geometry.Mass;
 import br.com.etyllica.core.event.GUIEvent;
 import br.com.etyllica.core.event.KeyEvent;
 import br.com.etyllica.core.event.PointerEvent;
-import br.com.etyllica.core.graphics.Graphic;
+import br.com.etyllica.core.graphics.Graphics;
 import br.com.etyllica.layer.ImageLayer;
 import br.com.etyllica.layer.Layer;
 import br.com.etyllica.physics.PhysicsApplication;
@@ -52,27 +52,13 @@ public class BoxesFalling extends PhysicsApplication {
 	}
 
 	@Override
-	public GUIEvent updateMouse(PointerEvent event) {
-
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public GUIEvent updateKeyboard(KeyEvent event) {
-		// TODO Auto-generated method stub
-		
-		return null;
-	}
-
-	@Override
 	public void update(long now){
 				
 		updateWorld(now);
 	}
 
 	@Override
-	public void draw(Graphic g) {
+	public void draw(Graphics g) {
 
 		g.setColor(Color.BLACK);
 		g.drawRect(floor.getLayer());

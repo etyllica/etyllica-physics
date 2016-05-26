@@ -5,7 +5,7 @@ import java.awt.geom.AffineTransform;
 import org.dyn4j.dynamics.Body;
 import org.dyn4j.dynamics.BodyFixture;
 
-import br.com.etyllica.core.graphics.Graphic;
+import br.com.etyllica.core.graphics.Graphics;
 import br.com.etyllica.layer.Layer;
 
 /**
@@ -30,7 +30,7 @@ public class RigidBody extends Body {
 		setMass();
 	}
 	
-	public void draw(Graphic g) {
+	public void draw(Graphics g) {
 		
 		AffineTransform transform = new AffineTransform();
 		

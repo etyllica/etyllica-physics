@@ -25,7 +25,7 @@
 package examples.physics;
 
 import examples.physics.application.BoxesFalling;
-import br.com.etyllica.EtyllicaFrame;
+import br.com.etyllica.Etyllica;
 import br.com.etyllica.core.context.Application;
 
 /**
@@ -37,7 +37,7 @@ import br.com.etyllica.core.context.Application;
  * @version 3.1.5
  * @since 3.0.0
  */
-public class PhysicsExample extends EtyllicaFrame {
+public class PhysicsExample extends Etyllica {
 	
 	/** The serial version id */
 	private static final long serialVersionUID = 5663760293144882635L;

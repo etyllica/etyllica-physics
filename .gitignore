@@ -1,6 +1,7 @@
 # Pre-Compiled Files #
 *.class
 /bin
+*/bin
 
 # Automatic Generated Files #
 *.applet
